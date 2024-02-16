@@ -1,0 +1,15 @@
+<model-viewer src="ARSC20WCL.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" camera-orbit="54.31deg 88.44deg 3.299m" field-of-view="26.19deg">
+    <button class="Hotspot" slot="hotspot-2" data-position="-63.53040255800488m 20.61000197272733m -66.71959470062306m" data-normal="0.6518359705029309m 0.409145395529411m 0.6385216620253257m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Welcome to MEMSECO A.R showcase.
+            Challenge: There are two clashes... Try to find them!</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
